@@ -13,7 +13,7 @@ let videos = [
 ]
 
 app.get('/', (req: Request, res: Response) =>{
-    res.send("Hello IT-INCUBATOR.EU???")
+    res.send("Hello IT-INCUBATOR.")
 })
 app.get('/videos', (req: Request, res: Response) =>{
     res.send(videos)
